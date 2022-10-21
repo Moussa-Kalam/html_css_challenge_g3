@@ -1,0 +1,69 @@
+.main-section {
+    font-family: 'Inter', sans-serif;
+    color: #54221f;
+}
+
+.main-section > .guideline-wrapper {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.main-section > .guideline-wrapper > p {
+    font-weight: bold;
+}
+.main-section > .guideline-wrapper > p > .guideline-head-wrapper {
+   font-weight: bolder;
+}
+
+.ingredients {}
+
+/* Your RECIPE */
+
+.main-section > .recipe-wrapper h2 {
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+
+.main-section > .recipe-wrapper h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Ingredient list */
+
+.main-section > .recipe-wrapper > .ingredients {
+    display: flex;
+    background-color:#54221f;
+    color: white;
+    border-radius: 20px;
+    margin-right: 50%;
+}
+
+/* Direction */
+.directions-section > .intro-directions {
+    text-align: center;
+    font-weight: bold;
+}
+
+.reading-directions {
+    padding-right: 100px;
+}
+
+.reading-directions > .checkbox-wrapper > .inner-checkbox-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Video Instruction section */
+
+.main-section > .video-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-section > .video-wrapper iframe {
+    width: 1000px;
+    border-radius: 5px;
+}
