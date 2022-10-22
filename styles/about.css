@@ -1,0 +1,102 @@
+/* Navigation header styles */
+
+.header-styles {
+    background-image: url(../images/dessert.png);
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px !important;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    color: #54221f;
+}
+
+.header-styles > .nav-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 750px;
+    padding-right: 100px;
+    padding-bottom: 270px;
+    align-items: center;
+    width: 400px;
+    
+}
+
+.header-styles > .nav-btn-wrapper > .nav-box {
+    background-color:#54221f;
+    height:40px;
+    width: 120px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.header-styles > .nav-btn-wrapper > .nav-box:hover {
+    background-color:#cea135;
+}
+
+.header-styles > .nav-btn-wrapper a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background-color: transparent;
+    width: 120px;
+    transition: 0.5s;
+}
+
+.header-styles > .nav-btn-wrapper a:hover {
+    letter-spacing: 1px;
+}
+
+.header-styles > .banner-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2em;
+    background-color: #54221f;
+    color:white;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* About body */
+ .main-section > .About-heading {
+    background-color: #54221f;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 600px;
+    margin-right: 600px;
+ }
+
+ .about > .meet-the-team-wrapper {
+    text-align: center;
+ }
+
+ /* Pictures wrapper */
+ .about > .Team-members {
+    display: grid;
+    grid-template-columns:repeat(3, minmax(0, 1fr)); minmax(0, 1fr);
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: bisque;
+ }
+
+ .about > .Team-members > .pictures {
+    align-items: center;
+    text-align: center;
+
+ }
+
+ .about > .Team-members > .pictures img {
+    border-radius: 50%;
+    padding-top: 10px;
+    height: 200px !important;
+    
+ }

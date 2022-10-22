@@ -1,0 +1,59 @@
+/* Navigation header styles */
+
+.header-styles {
+    background-image: url(../images/doro.jpg);
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    color: white;
+}
+
+.header-styles > .nav-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 500px;
+    padding-bottom: 270px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.header-styles > .nav-btn-wrapper > .nav-box {
+    background-color:#54221f;
+    height:40px;
+    width: 120px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.header-styles > .nav-btn-wrapper > .nav-box:hover {
+    background-color:#cea135;
+}
+
+.header-styles > .nav-btn-wrapper a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.header-styles > .nav-btn-wrapper a:hover {
+    letter-spacing: 1px;
+}
+
+.header-styles > .banner-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2em;
+    text-emphasis: center;
+    margin:0px;
+    text-align: center;
+}
